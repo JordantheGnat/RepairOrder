@@ -13,6 +13,19 @@
         android:theme="@style/Theme.RepairOrder"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2.java"
+            android:exported="false"
+            android:label="@string/title_activity_main_activity2.java"
+            android:theme="@style/Theme.RepairOrder" />
+        <activity
+            android:name=".DatActivityDoe"
+            android:exported="false"
+            android:label="@string/title_activity_dat_doe"
+            android:theme="@style/Theme.RepairOrder" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
